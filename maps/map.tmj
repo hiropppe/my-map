@@ -652,7 +652,7 @@
                  "id":128,
                  "properties":[
                         {
-                         "name":"collidable",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
@@ -661,7 +661,7 @@
                  "id":129,
                  "properties":[
                         {
-                         "name":"collidable",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
