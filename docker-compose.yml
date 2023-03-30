@@ -1,0 +1,12 @@
+services:
+  map:
+    container_name: map
+    build:
+      context: .
+    image: map
+    command: bash
+    tty: true
+    ports:
+      - 5173:5173
+    volumes:
+      - .:/root/map
